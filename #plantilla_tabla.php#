@@ -26,7 +26,6 @@
 			?>
 			</tbody>
 		</table>
-		<a href="captura_datos.html"><img class="icono" src="img/plus.png" alt="Crear un paciente" title="Crear un paciente"></a>
-
+			
 	</body>
 </html>
