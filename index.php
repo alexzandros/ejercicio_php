@@ -9,9 +9,5 @@ $resultado=mysqli_query($conexion,"select paciente.nombre, paciente.apellido,
 	enfermedad.descripcion as enfermedad from paciente left join padece on 
 	paciente.id_paciente=padece.id_paciente left join enfermedad on 
 	enfermedad.id_enfermedad=padece.id_enfermedad order by apellido;");
-//$tabla=Array();
-if(mysqli_num_rows($resultado)>0)
-{
-	include_once"plantilla_tabla.php";
-}
+include_once"plantilla_tabla.php";
 ?>
