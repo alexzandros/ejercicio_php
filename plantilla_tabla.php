@@ -7,6 +7,9 @@
 		<meta charset="utf-8"/>
 	</head>
 	<body>
+		<header>
+			<img alt="Carlos Roberto Rojas" src="img/bannerCRRC.png" />
+		</header>
 		<table border="1">
 			<thead>
 				<tr>
@@ -26,7 +29,15 @@
 			?>
 			</tbody>
 		</table>
-		<a href="captura_datos.html"><img class="icono" src="img/plus.png" alt="Crear un paciente" title="Crear un paciente"></a>
+	<footer>
+		<nav class="navegacion">
+			<ul>
+				<li><a href="index.php">Ver la lista de enfermedades.</a></li>
+				<li><a href="captura_datos.html">Ingresar paciente.</a></li>
+				<li><a href="index.html">Inicio</a></li>
+			</ul>
+		</nav>
+	</footer>
 
 	</body>
 </html>

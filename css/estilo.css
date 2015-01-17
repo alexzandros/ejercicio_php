@@ -27,3 +27,35 @@ label
 	width: 32px;
 	height: 32px;
 }
+body
+{
+//	background-image:url("../img/bannerCRRC.png");
+	background:linear-gradient(to bottom right,white,blue) no-repeat;
+	height:97.5vh;
+}
+header
+{
+	margin-bottom:2em;
+}
+nav.navegacion li
+{
+	display:inline-block;
+	
+}
+nav.navegacion li a
+{
+	text-decoration:none;
+	border: solid 1px black;
+	padding: 0.4em;
+	color:black;
+	background:linear-gradient(to top, black, white);
+	font-weight:bold;
+	font-family:sans-serif;
+}
+
+footer
+{
+//	margin-top:2em;
+	position:fixed;
+	bottom:1em;
+}
