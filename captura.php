@@ -4,11 +4,11 @@
 	$conexion=conectar(	);
 	if ($conexion)
 	{
-		$nombre=$_POST["txt_nombre"];
-		$apellido=$_POST["txt_apellido"];
-		$documento=$_POST["txt_documento"];
-		$direccion=$_POST["txt_direccion"];
-		$telefono=$_POST["txt_telefono"];
+		$nombre=utf8_encode($_POST["txt_nombre"]);
+		$apellido=utf8_encode($_POST["txt_apellido"]);
+		$documento=utf8_encode($_POST["txt_documento"]);
+		$direccion=utf8_encode($_POST["txt_direccion"]);
+		$telefono=utf8_encode($_POST["txt_telefono"]);
 		$cadena="insert into paciente(nombre,apellido,direccion,telefono,
 		documento_paciente) 
 		values('$nombre','$apellido','$direccion','$telefono','$documento')";

@@ -22,9 +22,9 @@
 			<?php
 				foreach ($resultado as $elemento)
 				{
-					echo "<tr><td>".utf8_encode($elemento["nombre"])."</td><td>".
-					utf8_encode($elemento["apellido"]).
-					"</td><td>".utf8_encode($elemento["enfermedad"])."</td></tr>\n";				
+					echo "<tr><td>".utf8_decode($elemento["nombre"])."</td><td>".
+					utf8_decode($elemento["apellido"]).
+					"</td><td>".utf8_decode($elemento["enfermedad"])."</td></tr>\n";				
 				}
 			?>
 			</tbody>
